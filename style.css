@@ -1,0 +1,36 @@
+nav
+{
+    background-color: black;
+}
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    display: inline-block;
+}
+ul li a
+{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+@media(max-width:500px) 
+{
+  ul li
+  {
+    display:block;
+    padding: 20px;
+    
+  }
+}
+@media(max-width:500px)and(min-width:768px)
+{
+  ul li
+  {
+    display:block;
+    padding:20px;
+    
+  }
+} 
